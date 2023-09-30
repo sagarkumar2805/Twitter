@@ -1,0 +1,73 @@
+.page-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container {
+    width: 70vw;
+    display: flex;
+    height: 100vh;  
+    border-right: solid 2px rgb(241, 226, 226); 
+    padding-right: 20px;
+}
+
+.profile-section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    /* margin-left: 5px; */
+    padding-left: 5px;
+}
+
+.profile-section::-webkit-scrollbar{
+    display: none;
+}
+.blue-background{
+    background-color: rgb(81, 116, 255);
+    height: 150px;
+}
+
+.profile-picImg{
+    border-radius: 70px;
+    bottom: 45px;
+    z-index: 1;
+    position: relative;
+    /* margin-left: 10px; */
+}
+
+.follow-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.Following p,.follower p{
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.last-used p,.dob p,.location p{
+    padding-left: 10px;
+}
+
+.location{
+    padding-left: 200px;
+}
+
+.user-details{
+    margin: 0;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.personal-details{
+    padding-top: 40px;
+}
+
+h5{
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+.page-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+.tweet-container {
+    width: 70vw;
+    display: flex;
+    height: 100vh;  
+    border-right: solid 2px rgb(241, 226, 226); 
+    padding-right: 20px;
+}
+
+.tweet-section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;    
+    padding-left: 5px;
+}
+
+.tweet-section::-webkit-scrollbar{
+    display: none;
+}
+.tweet-details-profile-pic{
+    border-radius: 50px;
+}
+
+.tweet-details{
+    padding: 7px;
+    border: solid 2px rgb(255, 242, 242);
+}
+
+.tweet-details:hover{
+    background-color: rgb(247, 249, 251);
+}
+
+i{
+    cursor: pointer;
+}
+

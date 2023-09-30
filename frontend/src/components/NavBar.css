@@ -1,0 +1,69 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 15vw; /* Adjust width as needed */
+  height: 100vh;
+  /* padding-right: 10px; */
+  position: relative;
+  border-right: solid 2px rgb(255, 242, 242);
+  margin-right: 25px;
+  background-color: rgb(250, 250, 252);
+  padding: 20px;  
+  align-items: flex-start;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+ 
+  height: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Change the color of the first child (icon and text) */
+.nav-link:first-child i {
+  color: rgb(81, 116, 255);
+}
+
+.nav-link h5{
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.nav-link i {
+  font-size: 24px; /* Adjust icon size as needed */
+}
+
+.nav-link span {
+  font-size: 12px; /* Adjust text size as needed */
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+/* Add space at the bottom for the last icon (profile icon) */
+.nav-link:last-child {
+  margin-top: auto;
+}
+
+.myProfile{
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.myProfile h6{
+  font-weight: bold;
+}
